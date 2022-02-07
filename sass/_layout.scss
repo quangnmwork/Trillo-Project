@@ -1,0 +1,19 @@
+.container{
+    max-width: 120rem;
+    background-color: $color-grey-light-2;
+    box-shadow: $shadow-dark;
+    min-height: 50rem;
+    margin: 8rem auto;
+}
+.header{
+    height: 7rem;
+    background-color: $color-white;
+
+}
+.content{
+    display: flex;
+    flex: 0 0 18%;
+}
+.sidebar{
+    background-color: $color-grey-dark-1;
+}

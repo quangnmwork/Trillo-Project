@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #777;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#FF3366), to(#BA265D));
+  background-image: linear-gradient(to right bottom, #FF3366, #BA265D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 120rem;
+  background-color: #f4f2f2;
+  -webkit-box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.4);
+  min-height: 50rem;
+  margin: 8rem auto;
+}
+
+.header {
+  height: 7rem;
+  background-color: #fff;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 18%;
+          flex: 0 0 18%;
+}
+
+.sidebar {
+  background-color: #333;
+}
+
+.logo {
+  height: 3.25rem;
+}
+/*# sourceMappingURL=main.css.map */
