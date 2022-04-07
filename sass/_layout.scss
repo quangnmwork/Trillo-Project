@@ -26,4 +26,22 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 80rem;
+}
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  border-bottom: var(--line);
+  background-color: var(--color-grey-light-1);
+}
+.description {
+  background-color: var(--color-white);
+  flex: 0 0 60%;
+  margin-right: 4.5rem;
+  padding: 3.5rem;
+  box-shadow: var(--shadow-light);
+}
+.user-reviews {
+  background-color: yellowgreen;
+  flex: 1;
 }
